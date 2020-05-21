@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.treetacle.lab4.DodajWpis">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nazwa"
+        app:layout_constraintBottom_toTopOf="@+id/gatunek"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="16dp"
+        android:onClick="wyslij"
+        android:text="Dodaj"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opis" />
+
+
+    <EditText
+        android:id="@+id/kolor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="84dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="Kolor"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/wielkosc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gatunek" />
+
+    <EditText
+        android:id="@+id/wielkosc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="Wielkosc"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/opis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kolor" />
+
+    <EditText
+        android:id="@+id/opis"
+        android:layout_width="211dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="33dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="opis"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wielkosc" />
+
+    <Spinner
+        android:id="@+id/gatunek"
+        android:layout_width="210dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="16dp"
+        android:hint="opis"
+        app:layout_constraintBottom_toTopOf="@+id/kolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+</android.support.constraint.ConstraintLayout>

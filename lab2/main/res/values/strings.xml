@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lab2</string>
+    <string name="moj_tekst">Witaj świecie!</string>
+    <string name="k1">jeden</string>
+    <string name="k2">dwa</string>
+    <string name="k3">trzy</string>
+    <string name="k4">cztery</string>
+    <string name="k5">pięć</string>
+</resources>

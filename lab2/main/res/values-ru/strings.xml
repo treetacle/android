@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">lab2</string>
+    <string name="moj_tekst">Привет мир!</string>
+    <string name="k1">один</string>
+    <string name="k2">два</string>
+    <string name="k3">три</string>
+    <string name="k4">четыре</string>
+    <string name="k5">пять</string>
+</resources>

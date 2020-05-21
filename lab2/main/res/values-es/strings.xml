@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">lab2</string>
+    <string name="moj_tekst">" Hola mundo!"</string>
+    <string name="k1">uno</string>
+    <string name="k2">dos</string>
+    <string name="k3">tres</string>
+    <string name="k4">cuatro</string>
+    <string name="k5">cinco</string>
+</resources>
